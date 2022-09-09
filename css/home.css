@@ -16,9 +16,7 @@
 .padding-title {
    padding-top: 10px;
 }
-.main-height{
-   height: 100vh;
-}
+
 
 .font-family{
    font-family: 'Courier New', Courier, monospace;
@@ -27,5 +25,5 @@
    height: 700px;
 }
 .img-height{
-   height: 400px;
+   height: 320px;
 }
