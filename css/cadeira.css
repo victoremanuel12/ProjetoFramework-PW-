@@ -1,6 +1,7 @@
 * {
 
    letter-spacing: 3px;
+   font-family: Helvetica, sans-serif;
 }
 
 .background-color-red {
@@ -8,19 +9,12 @@
    color: white;
    padding: 5px 20px;
 }
-.background-color-gray {
-   background-color: #f8f8f8;
-}
-.padding-title {
-   padding-top: 10px;
-}
+
+
 .font-family{
    font-family: 'Courier New', Courier, monospace;
 }
-.paralax-height{
-   height: 700px;
-}
-.img-height{
-   height: 320px;
-}
 
+.margin-main{
+   margin: 0 auto;
+}
