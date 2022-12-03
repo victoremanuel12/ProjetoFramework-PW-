@@ -34,7 +34,7 @@ function ValidarSenha(event) {
       errorSubmitDados.textContent="A senha tem que ter ao menos 1 número e 1 letra!"
    }else if(senha == confirmarSenha && empty == false && senhaComNumero && senhaComLetra){
       errorSubmitDados.classList.add('alertSucess')
-      errorSubmitDados.textContent="Usuario Cadastrado com sucesso!"
+      errorSubmitDados.textContent="Usuario cadastrado com sucesso!"
    }
   
 }
