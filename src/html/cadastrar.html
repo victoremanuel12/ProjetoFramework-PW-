@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/login.css">
+   <title>Cadastro</title>
+</head>
+
+<body>
+  <section >
+      <form class="forms">
+         <h1>Dados:</h1>
+         <label  class="labelDados">Nome Completo:  <strong>*</strong></label>
+         <input type="text" name="" class="inputDados">
+         <label  class="labelDados">Data de Nascimento:  <strong>*</strong></label>
+         <input type="date" name="" class="inputDados">
+         <label  class="labelDados">Telefone: <strong>*</strong></label>
+         <input type="tel" name="" class="inputDados">
+         <label  class="labelDados">E-mail:  <strong>*</strong></label>
+         <input type="email" name="" class="inputDados">
+         <label  class="labelDados">Senha:  <strong>*</strong></label>
+         <input type="password" name="" class="inputDados" id="senha">
+         <label  class="labelDados">Confirmar Senha:  <strong>*</strong></label>
+         <input type="password" name="" class="inputDados" id="confirmarSenha" >
+         <input type="submit" value="Cadastrar" class="submitDados" onclick="ValidarSenha(event)">
+         <span class="errorSubmitDados"></span>
+         <div class="logins">
+            <a href="https://www.google.com/intl/pt-BR/account/about/" target="_blank"><img src="../assets/google.png" alt="Google Login"></a>
+            <a href="https://pt-br.facebook.com/"  target="_blank"><img src="../assets/facebook.png" alt="Facebook Login"></a>
+            <a href="https://www.linkedin.com/login/pt" target="_blank"><img src="../assets/linkedin.png" alt="Linkedin Login"></a>
+         </div>
+      </form>
+  </section>
+</body>
+<script src="../js/cadastrar.js"></script>
+</html>
+<!-- 
+   Um empresa de venda de cosméticos lhe convida a desenvolver a página de cadastro de usuários e lhe pede que na página haja os seguintes campos:
+- Nome completo
+- Data de nascimento
+- Telefone
+- E-mail
+- Senha 
+- Confirmação de senha
+
+E pediu a seguinte validação:
+1 - No campo de senha, valide se existe pelo menos um número.
+
+2 - Criar um novo campo de confirmar a senha, que deve ser igual ao campo anterior;
+
+Ao clicar no botão "Enviar" deste formulário, deve ser validado tais regras. Caso não seja igual, deverá aparecer uma mensagem na tela informando o erro.
+
+
+Faça formulário com um cenário CSS que deixe sua página elegante (pode usar framework).
+ -->
