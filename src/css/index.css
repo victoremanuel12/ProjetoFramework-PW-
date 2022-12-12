@@ -1,5 +1,7 @@
-* {
-
+*{
+   text-decoration: none;
+   border: 0;
+   margin: 0;
    letter-spacing: 3px;
 }
 
@@ -8,19 +10,33 @@
    color: white;
    padding: 5px 20px;
 }
+
 .background-color-gray {
    background-color: #f8f8f8;
 }
+
 .padding-title {
    padding-top: 10px;
 }
-.font-family{
+
+.font-family {
    font-family: 'Courier New', Courier, monospace;
 }
-.paralax-height{
+
+.paralax-height {
    height: 700px;
 }
-.img-height{
+
+.img-height {
    height: 320px;
 }
 
+.cadastrado {
+   color: rgb(97, 89, 89);
+   font-size: 30px;
+}
+
+.parabens {
+   font-size: 30px;
+   text-decoration: underline;
+}

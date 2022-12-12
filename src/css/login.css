@@ -16,7 +16,8 @@ body {
 }
 
 .forms {
-   background-color: rgba(255, 255, 255, 0.467);
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.585);
    border-radius: 40px;
    width: 40%;
    display: flex;
@@ -30,8 +31,10 @@ body {
    color: rgb(0, 0, 0);
 
 }
-
-.forms h1 {
+.forms button a{
+   color: white;
+}
+.forms h1, h2 {
    color: rgb(33, 32, 32);
    margin-bottom: 10px;
    font-weight: 500;
